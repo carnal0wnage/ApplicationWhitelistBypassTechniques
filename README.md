@@ -1,4 +1,4 @@
-ApplicationWhitelistBypassTechniques
+Application Whitelist Bypass Techniques
 ====================================
 
 A Catalog of Application Whitelisting Bypass Techniques
