@@ -1,0 +1,36 @@
+# The List
+#
+# As many organizations adopt a Whitelisting Strategy, this list seeks to compile known bypass techniques that can be used
+# by the security community.
+#
+# There are many various ways to WhiteList Applications
+# Future release will attempt to catalog what works against specific techniques.
+
+# Version .0.0.1
+
+1. IEExec
+
+This technique may work in certain envirionments.  Its relies on the fact that many organizations trust executables signed
+by Microsoft.  We can misuse this trust by launching a specially crafted .NET application. 
+Example Here: http://www.room362.com/blog/2014/01/16/application-whitelist-bypass-using-ieexec-dot-exe/
+
+2.  Rundll32.exe
+
+3.  ClickOnceApplications
+
+4.  XBAP - XML Browser Applications WPF 
+
+5.  dfshim.dll
+
+6.  MD5 Hash Collision 
+http://www.mathstat.dal.ca/~selinger/md5collision/
+
+7.  PowerShell
+Specifically Reflective Execution
+http://clymb3r.wordpress.com/2013/04/06/reflective-dll-injection-with-powershell/
+https://www.defcon.org/images/defcon-21/dc-21-presentations/Bialek/DEFCON-21-Bialek-PowerPwning-Post-Exploiting-by-Overpowering-Powershell.pdf
+
+
+
+
+I'd love to hear other techniques
