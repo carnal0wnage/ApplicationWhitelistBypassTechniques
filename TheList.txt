@@ -30,7 +30,7 @@ Specifically Reflective Execution
 http://clymb3r.wordpress.com/2013/04/06/reflective-dll-injection-with-powershell/
 https://www.defcon.org/images/defcon-21/dc-21-presentations/Bialek/DEFCON-21-Bialek-PowerPwning-Post-Exploiting-by-Overpowering-Powershell.pdf
 
-
+8. .HTA Application Invoke PowerShell Scripts
 
 
 I'd love to hear other techniques
