@@ -29,6 +29,7 @@ http://clymb3r.wordpress.com/2013/04/06/reflective-dll-injection-with-powershell
 https://www.defcon.org/images/defcon-21/dc-21-presentations/Bialek/DEFCON-21-Bialek-PowerPwning-Post-Exploiting-by-Overpowering-Powershell.pdf
 
 7. .HTA Application Invoke PowerShell Scripts
+    Launched by mshta.exe, bypasses IE security settings as well.
 
 8.  bat, vbs, ps1
     1. cmd.exe /k < script.txt
