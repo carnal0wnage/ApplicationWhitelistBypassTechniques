@@ -6,7 +6,7 @@
 # There are many various ways to WhiteList Applications
 # Future release will attempt to catalog what works against specific techniques.
 
-# Version .0.0.1
+# Version .0.0.2
 
 1. IEExec
 
@@ -16,21 +16,24 @@ Example Here: http://www.room362.com/blog/2014/01/16/application-whitelist-bypas
 
 2.  Rundll32.exe
 
-3.  ClickOnceApplications
+3.  ClickOnce Applications dfsvc.exe dfshim.dll
 
-4.  XBAP - XML Browser Applications WPF 
+4.  XBAP - XML Browser Applications WPF PresentationHost.exe
 
-5.  dfshim.dll
-
-6.  MD5 Hash Collision 
+5.  MD5 Hash Collision 
 http://www.mathstat.dal.ca/~selinger/md5collision/
 
-7.  PowerShell
+6.  PowerShell
 Specifically Reflective Execution
 http://clymb3r.wordpress.com/2013/04/06/reflective-dll-injection-with-powershell/
 https://www.defcon.org/images/defcon-21/dc-21-presentations/Bialek/DEFCON-21-Bialek-PowerPwning-Post-Exploiting-by-Overpowering-Powershell.pdf
 
-8. .HTA Application Invoke PowerShell Scripts
+7. .HTA Application Invoke PowerShell Scripts
+
+8.  bat, vbs, ps1
+    1. cmd.exe /k < script.txt
+    2. cscript.exe //E:vbscript script.txt
+    3. Get-Content script.txt | iex
 
 
 I'd love to hear other techniques
